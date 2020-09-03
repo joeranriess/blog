@@ -1,1 +1,9 @@
-test
+# Site settings
+title: Nicole & Jöran
+email: joeran.riess@googlemail.com
+url: https://joeni-heiraten.de
+description: "Wir heiraten!"
+baseurl: ""
+host: 0.0.0.0 # listen to LAN connections
+gems:
+  - jekyll-sitemap
