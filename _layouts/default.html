@@ -1,16 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Nicole & Jöran heiraten</title>
-  <link href="main.css" rel=stylesheet>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-</head>
-<body>
-  <header>
-  </header>
-
-{{content}}
-
-</body>
+<html>
+    {% include header.html %}
+    <body data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {{ content }}
+    </body>
 </html>
